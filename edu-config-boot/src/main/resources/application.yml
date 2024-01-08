@@ -1,0 +1,14 @@
+server:
+  port: 8090
+
+spring:
+  application:
+    name: edu-config-boot
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/Mallji/mallji-edu-repo.git
+          username: mallji
+          password: Sr19981110
+          default-label: main
